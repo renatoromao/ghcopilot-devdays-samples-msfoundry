@@ -1,0 +1,18 @@
+[tool]
+name = "foundry-chat-app"
+version = "0.1.0"
+description = "A chat application that interacts with Microsoft Foundry's API."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.0"
+requests = "^2.25"
+azure-identity = "^1.6"
+pydantic = "^1.8"
+Werkzeug = "<3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
